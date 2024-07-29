@@ -1,0 +1,83 @@
+
+
+body {
+    padding-top: 56px; 
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+    justify-content: center; 
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .navbar-nav .nav-item {
+    margin: 0 10px; 
+  }
+  
+  .navbar-username {
+    margin-right: 10px;
+  }
+  
+  .task-form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .task-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .task-list {
+    max-width: 600px;
+    margin: auto;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-item div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-item strong {
+    font-size: 1.2rem;
+  }
+  
+  .task-item span {
+    color: #777;
+    margin-top: 5px;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .task-form {
+      width: 100%;
+    }
+  
+    .task-item {
+      flex-direction: column;
+    }
+  
+    .task-item span {
+      font-size: 0.9rem;
+    }
+  }

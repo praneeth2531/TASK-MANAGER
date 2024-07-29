@@ -1,0 +1,29 @@
+
+.d-flex {
+  max-width: 100%;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+@media (max-width: 767px) {
+  .login-card {
+    padding: 10px;
+  }
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.btn-block {
+  width: 100%;
+}
