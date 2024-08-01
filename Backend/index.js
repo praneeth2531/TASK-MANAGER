@@ -96,7 +96,7 @@ app.get('/user', async (req, res) => {
 });
 app.delete('/tasks/:id', async (req, res) => {
     const { id } = req.params;
-    console.log('Deleting task with ID:', id); // Log the ID
+    console.log('Deleting task with ID:', id); 
     const token = req.headers.authorization.split(' ')[1];
   
     try {

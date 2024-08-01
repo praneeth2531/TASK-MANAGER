@@ -63,7 +63,7 @@ function Tasks() {
   };
 
   const handleDelete = async (taskId) => {
-    console.log('Deleting task with ID:', taskId); // Debug log
+    console.log('Deleting task with ID:', taskId);
     const token = localStorage.getItem('token');
     if (!token) {
       navigate('/');
@@ -76,7 +76,7 @@ function Tasks() {
       });
       setTasks(tasks.filter(task => task._id !== taskId));
     } catch (error) {
-      console.error('Error deleting task', error); // Error log
+      console.error('Error deleting task', error); 
     }
   };
 
